@@ -2,5 +2,11 @@
 <?php
 
 require_once __DIR__ . '/../vendor/autoload.php';
+    $data=['1','4','7','2','5','3','6'];
+    $logic=new Gnatkovsky\Sorting();
+    $sorting=new Gnatkovsky\SortStrategy($logic);
+    var_dump($sorting->doSorting($data));
+    var_dump($sorting->getOriginArray());
+
 
 

@@ -1,9 +1,9 @@
 {
   "name": "greeflas/default-project",
-  "description": "This is a default structure for PHP projects.",
-  "keywords": ["project", "template", "structure", "skeleton", "phpunit"],
-  "type": "project",
-  "license": "BSD-3-Clause",
+  "description": "It`s PHP library in order to sorting array.",
+  "keywords": ["project", "library"],
+  "type": "library",
+  "license": "Gnatkovsky",
   "authors": [
     {
       "name": "Maxim Gnatkovsky",
@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "App\\": "src/"
+      "Gnatkovsky\\": "src/"
     }
   },
   "autoload-dev": {
@@ -29,6 +29,7 @@
     }
   },
   "scripts": {
-    "cs-fix": "php-cs-fixer fix --allow-risky=yes"
+    "cs-fix": "php-cs-fixer fix --allow-risky=yes",
+    "start" : "php -S 127.0.0.1:9000 -t bin bin/console.php"
   }
 }
