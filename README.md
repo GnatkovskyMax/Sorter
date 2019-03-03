@@ -1,15 +1,15 @@
-PHPLibrary 
+  <h1>PHPLibrary </h1>
 
 This is a PHP lybrary that should use in order to sorting array. With this library you can to sort array by increas or decreas.
 
-This tlibrary has basic configuration for PHPUnit and PHP-CS-Fixer libraries, configured composer.json with PSR-4 namespaces for source code and tests, .gitignore with basic files and directories to exclude them from Git, changelog file and README with cool badges :)
+This library has basic configuration for PHPUnit and PHP-CS-Fixer libraries, configured composer.json with PSR-4 namespaces for source code and tests, .gitignore with basic files and directories to exclude them from Git, changelog file and README with cool badges :)
 
 Packagist Packagist Custom badge
 Installation
 
 For creating new project based on this template just execute the following command
 
-$ composer create-project MaxStepit/Sorting project-name
+$ composer create-project MaxStepit/Sorter project-name
 
     NOTE: You can add --no-dev right after create-project flag if you don't want to install dev dependencies to your project
 
