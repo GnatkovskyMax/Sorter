@@ -10,9 +10,21 @@
  */
 
 namespace Gnatkovsky;
-
+/**
+ * Class SortingRevers
+ * @package Gnatkovsky
+ * This class has logic of sorting;
+ * @param array $data
+ * @return array
+ */
 class SortingRevers implements SortingInterface
 {
+    /**
+     * Method Sorting
+     * This method sorts values of array in reverse order;
+     * @param array $data
+     * @return array
+     */
     public function sorting(array $data): array
     {
         \arsort($data);

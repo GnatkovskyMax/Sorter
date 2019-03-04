@@ -1,9 +1,9 @@
 {
-  "name": "greeflas/default-project",
+  "name": "MaxStepit/Sorter",
   "description": "It`s PHP library in order to sorting array.",
   "keywords": ["project", "library"],
   "type": "library",
-  "license": "Gnatkovsky",
+  "license": "proprearity",
   "authors": [
     {
       "name": "Maxim Gnatkovsky",
@@ -29,7 +29,6 @@
     }
   },
   "scripts": {
-    "cs-fix": "php-cs-fixer fix --allow-risky=yes",
-    "start" : "php -S 127.0.0.1:9000 -t bin bin/console.php"
+    "cs-fix": "php-cs-fixer fix --allow-risky=yes"
   }
 }

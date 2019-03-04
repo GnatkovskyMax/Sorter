@@ -10,9 +10,22 @@
  */
 
 namespace Gnatkovsky;
-
+/**
+ * Class SortingNull
+ * @package Gnatkovsky
+ * This class does not have logic of sorting;
+ * it is example of Nullobject pattern;
+ * @param array $data
+ * @return array
+ */
 class SortingNull implements SortingInterface
 {
+    /**
+     * Method sorting
+     * This method does not sort the values ​​of the array, but just returns the entered data.
+     * @param array $data
+     * @return array
+     */
     public function sorting(array $data): array
     {
         return [];

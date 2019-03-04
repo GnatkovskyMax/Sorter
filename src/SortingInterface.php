@@ -12,11 +12,18 @@
 namespace Gnatkovsky;
 
 /**
- * Interface SortingInterface
+ * @Interface SortingInterface
  * @package Gnatkovsky
  * This interface will be realize by classes with needed logic;
+ * @param  array  $data
+ * @return array  $data
  */
 interface SortingInterface
 {
+    /**
+     *The idea of ​​this method should have the sorting logic that is needed for your project.
+     * @param array $data
+     * @return array
+     */
     public function sorting(array $data): array;
 }
