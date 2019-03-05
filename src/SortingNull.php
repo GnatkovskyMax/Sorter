@@ -13,10 +13,8 @@ namespace Gnatkovsky;
 /**
  * Class SortingNull
  * @package Gnatkovsky
- * This class does not have logic of sorting;
- * it is example of Nullobject pattern;
- * @param array $data
- * @return array
+ * This class does not have logic of sorting.
+ * It is example of Nullobject pattern.
  */
 class SortingNull implements SortingInterface
 {

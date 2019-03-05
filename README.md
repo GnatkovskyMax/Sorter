@@ -6,7 +6,7 @@ Installation
 
 For creating new project based on this template just execute the following command
 
-$ composer create-project MaxStepit/Sorter project-name
+$ composer require maxstepit/sorter project-name
 
     
 
@@ -23,14 +23,19 @@ Usage
            $logic=new Gnatkovsky\SortingRevers();
            $logic=new Gnatkovsky\SortingNull();
        
-       Secondly, you sould to create new class Gnatkovsky\Sorter();
+       Secondly, you sould to create new class Gnatkovsky\Sorter().
        
            $sorter=new Gnatkovsky\Sorter($logic);
        
-       Thirdly, you should call method doSorting($data);
+       Thirdly, you should call method doSorting($data).
        
            $sorting->doSorting($data);
-    
+       If you want to replace logic of sorting you may create new logic,
+       then call method setLogic($newLogic).
+       
+           $newLogic=new Gnatkovsky\SortingRevers();  
+           $sorting->setLogic($newLogic);
+           
     This project is released under the terms of the proprearity license.
 
     Maxim Gnatkovsky

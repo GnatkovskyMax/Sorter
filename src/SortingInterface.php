@@ -14,9 +14,7 @@ namespace Gnatkovsky;
 /**
  * @Interface SortingInterface
  * @package Gnatkovsky
- * This interface will be realize by classes with needed logic;
- * @param  array  $data
- * @return array  $data
+ * This interface will be realize by classes with needed logic.
  */
 interface SortingInterface
 {

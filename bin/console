@@ -6,6 +6,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
     $logic=new Gnatkovsky\Sorting();
     $sorting=new Gnatkovsky\Sorter($logic);
     var_dump($sorting->doSorting($data));
-
-
+    $newLogic=new Gnatkovsky\SortingRevers();
+    $sorting->setLogic($newLogic);
+    var_dump($sorting->doSorting($data));
 

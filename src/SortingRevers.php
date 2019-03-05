@@ -13,15 +13,13 @@ namespace Gnatkovsky;
 /**
  * Class SortingRevers
  * @package Gnatkovsky
- * This class has logic of sorting;
- * @param array $data
- * @return array
+ * This class has logic of sorting.
  */
 class SortingRevers implements SortingInterface
 {
     /**
-     * Method Sorting
-     * This method sorts values of array in reverse order;
+     * Method sorting
+     * This method sorts values of array in reverse order.
      * @param array $data
      * @return array
      */

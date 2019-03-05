@@ -20,8 +20,8 @@ class Sorter
 
     /**
      * Sorter constructor.
+     * Creating a sorting logic class.
      * @param SortingInterface $logic
-     * Creating a sorting logic class
      */
     public function __construct(SortingInterface $logic)
     {
@@ -29,12 +29,21 @@ class Sorter
     }
 
     /**
+     * Using methods of sorting in class`s context Sorter.
      * @param array $data
      * @return array
-     * Using methods of sorting in class`s context Sorter;
      */
     public function doSorting(array $data):array
     {
         return  $this->sortLogic->sorting($data);
+    }
+
+    /**
+     * This method allow to replace the logic of sorting.
+     * @param SortingInterface $logic
+     */
+
+    public function setLogic(SortingInterface $logic){
+      $this->sortLogic=$logic;
     }
 }
